@@ -20,7 +20,7 @@ then
 		then
      		sudo apt install macchanger
 		rm -rf king.txt
-		echo "please run the script one more time"
+		echo "please run the script one more time as root or sudo user"
 	else
 		echo 'Enter the interface name (Plze enter a correct interface name [ Ex:- wlan0,etho,wlan1  ] ) ====>>>';
 		read VAR
